@@ -13,7 +13,7 @@ class Program
     static void Main(string[] args)
     {
         if (args.Length == 0)
-        {
+        { 
             MessageBox(IntPtr.Zero, 
                 string.Join(Environment.NewLine,
                     "Usage: SetUserEnv <path_to_env_file>",
